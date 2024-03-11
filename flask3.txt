@@ -1,0 +1,13 @@
+create table livro(
+id_livro int auto_increment primary key,
+titulo varchar(50),
+autor varchar(254),
+ano_publicado int
+)
+
+
+SELECT livro.id_livro AS livro_id_livro, livro.titulo AS livro_titulo, livro.autor AS livro_autor, livro.ano_publicacao AS livro_ano_publicacao 
+FROM livro
+
+
+select * from livro
